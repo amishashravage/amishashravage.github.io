@@ -1,7 +1,11 @@
+*{
+    text-decoration: none;
+     list-style: none;
+    
+}
 body{
     background:url(john-towner-JgOeRuGD_Y4-unsplash.jpg) ;
-     text-decoration: none;
-     list-style: none;
+     
     background-size: cover;
 }
 
