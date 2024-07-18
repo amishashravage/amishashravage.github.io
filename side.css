@@ -1,0 +1,43 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sidenav{
+    background: #b1a0a0;
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a{
+    color: #fff;
+    padding: 10px 15px 10px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+.sidenav a:hover{
+    background: blueviolet;
+}
+h2{
+    padding: 10px 15px 10px 16px;
+    color: #000;
+    border-bottom: solid;
+}
+.main{
+    background: #7a8692;
+    margin-left: 20%;
+    padding: 4px 10px;
+    color: #000;
+    display: inline-block;
+}
+section{
+    background: #7a8692;
+    margin-left: 20%;
+    padding: 4px 10px;
+    color: #000;
+    display: inline-block;
+}
