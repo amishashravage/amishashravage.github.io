@@ -1,61 +1,25 @@
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background:url(tim-swaan-eOpewngf68w-unsplash.jpg) ;
+    background-position: center;
+    background-size: cover;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.sidenav{
-    background: #b1a0a0;
-    position: fixed;
-    height: 100%;
-    width: 20%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    overflow-x: hidden;
-    padding-top: 20px;
+ul li{
+    list-style: none;
+    
 }
-.sidenav a{
-    color: #fff;
-    padding: 10px 15px 10px 16px;
+ul li a{
     text-decoration: none;
-    font-size: 25px;
-    display: block;
-}
-.sidenav a:hover{
-    background: blueviolet;
-}
-h2{
-    padding: 10px 15px 10px 16px;
-    color: #000;
-    border-bottom: solid;
-}
-.main{
-    background: #7a8692;
-    margin-left: 20%;
-    padding: 4px 10px;
-    color: #000;
-    display: inline-block;
-}
-section{
-    background: #7a8692;
-    margin-left: 20%;
-    padding: 4px 10px;
-    color: #000;
-    display: inline-block;
-}
-@media screen and(max-width:600px){
-    .sidenav{
-        padding-top: 15px;
-        width: 155px;
-    }
-    .sidenav a{
-        padding-left: 20px;
-        font-size: 18px;
-    }
-    .main{
-        margin-left: 32%;
-        font-size: 15px;
-
-    }
-    p{
-        display: inline-block;
-    }
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+} 
+ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: #f0f0f082;
 }
