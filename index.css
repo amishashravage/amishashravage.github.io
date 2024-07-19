@@ -9,6 +9,10 @@ body{
     align-items: center;
     justify-content: center;
 }
+.container{
+   border: 2px solid rgb(2, 2, 2);
+    box-shadow:  -10px 0 10px rgba(233, 229, 229, 0.579);
+}
 ul li{
     list-style: none;
     
