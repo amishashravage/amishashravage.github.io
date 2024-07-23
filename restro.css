@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+   z-index: 1000;
+}
+nav{
+    background-color: rgba(22, 20, 20, 0.479);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    cursor: pointer;
+    position: fixed;
+  top: 0;
+   width: 100vw;
+   text-transform: capitalize;
+  
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(238, 236, 233);
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    color: rgb(235, 235, 229);
+}
+nav ul li a{
+    height: 100%;
+    text-decoration: none;
+    color: #f9f6f6;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+}
+.main-container{
+  padding-top: 250px;
+   margin-left: 50px;
+   height: 600px;
+    background-image:url(ivan-torres-MQUqbmszGGM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     text-transform: capitalize;
+    background-attachment: fixed;
+}
+p{
+    margin-top: 4px;
+}
+.sp{
+    color: rgb(85, 13, 13);
+    margin-left: -0px;
+}
+
+
+nav ul li:hover{
+   color: tomato;
+}
+.home-sec{
+    background-image:url(ivan-torres-MQUqbmszGGM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     text-transform: capitalize;
+    background-attachment: fixed;
+}
+
+.about-sec{
+    padding: 200px;
+    margin: 50px;;
+background-color: cadetblue;
+    
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    color: rgb(249, 250, 250);
+    font-size: 16px;
+}
+.menu-container{
+    
+    display: flex;
+   flex-wrap: wrap;
+   
+}
+.menu-img img{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    margin-left: 100px;
+}
+span{
+   margin-left: 200px;
+   color: crimson;
+}
+h3{
+    margin-left: 40px;
+    text-transform: capitalize;
+    color: black;
+    
+}
+.chef-container{
+    display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(b1.jpg);
+background-position: center;
+background-size: cover;
+}
+.chef-img img{
+    
+    margin: 20px;
+    margin-left: 100px;
+    border-radius: 50px;
+}
+.heading{
+    text-align: center;
+    display: flex;
+    justify-content: center
+    ;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(219, 215, 215);
+
+}
+.book{
+    height: 500px;
+    width: 500px;
+    margin-top: 150px;
+    color: whitesmoke;
+    margin-left: 400px;
+    padding-top: 100px;
+padding-left: 100px;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+    background-image: url(kyle-johnson-8Gl7Ew-q6D8-unsplash.jpg);
+   
+}
+input{
+    height: 30px;
+    width: 250px;
+    margin-top: 40px;
+    border-radius: 22px;
+    margin-left: 50px;
+    gap: 10px;
+    color: #ece6e61e;
+    background: transparent;
+
+}
+::placeholder{
+    color: azure;
+    text-align: center;
+}
+.head{
+    font-size: 24px;
+   margin-left: -100px;
+   margin-top: 30px;
+    color: #ece6e6f1;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 22px;
+    border: none;
+    margin-left: 120px;
+    margin-top: 50px;
+
+
+}
+button:hover{
+    background-color: rgba(7, 11, 54, 0.624);
+    color: whitesmoke;
+}
+@media(max-width:740px){
+    nav ul{
+        font-size: 16px;
+    }
+    .logo{
+        font-size: 22px;
+    }
+    nav ul li a{
+        padding: 0 20px;
+    }
+}
+@media(max-width:470px){
+    nav ul{
+        font-size: 15px;
+    }
+    nav{
+        width: 100vw;
+        position: fixed;
+    }
+    .logo{
+        display: none;
+    }
+    nav ul li a{
+        padding: 0 10px;
+    }
+    .about-sec{
+        padding: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        margin: 5px;
+    }
+    .menu-img img{
+      margin-left: 10px;  
+      margin-right: 10;
+    }
+    .chef-img img{
+        margin-left: 20px;
+    }
+    .book{
+        height: 400px;
+        width: 150px;
+        margin-top: 10px;
+        color: whitesmoke;
+        margin-left: 40px;
+        padding-top: 10px;
+    overflow: hidden;
+        background-position: center;
+        background-size: cover;
+        border: 2px solid white;
+        background-image: url(kyle-johnson-8Gl7Ew-q6D8-unsplash.jpg);
+       
+    }
+    input{
+        height: 20px;
+        width: 100px;
+        margin-top: 40px;
+        border-radius: 22px;
+        margin-left: 10px;
+        gap: 4px;
+        color: #ece6e61e;
+        background: transparent;
+    
+    }
+    button{
+        height: 40px;
+        width: 100px;
+        border-radius: 22px;
+        border: none;
+        margin-left: 10px;
+        margin-top: 40px;
+    
+    
+    }
+}
